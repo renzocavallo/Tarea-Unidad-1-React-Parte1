@@ -1,0 +1,19 @@
+header{
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #253439;
+    padding: 0.7em 0;
+}
+
+header h1{
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    left: -15px;
+    bottom: 60px;
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}

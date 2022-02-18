@@ -1,0 +1,44 @@
+nav{
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #7c898b;
+    margin-bottom: 2em;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+}
+
+nav ul li{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+nav ul li.activo{
+    background-color: #253439;
+}
+nav ul li:hover{
+    cursor:pointer;
+    background-color: rgba(0,0,0,0.3);
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
